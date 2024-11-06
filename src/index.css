@@ -1,13 +1,74 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.container {
+  font-family: Arial, sans-serif;
+  color: #333;
+  background-color: #fdf5e6; /* light beige background */
+  text-align: center;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h1 {
+  color: orange;
+  font-size: 48px;
+  text-transform: uppercase;
+}
+
+h2 {
+  display: inline-block;
+  padding: 1rem 0;
+  border-top: 2px solid currentColor;
+  border-bottom: 2px solid currentColor;
+  font-size: 2.4rem;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: 500;
+}
+
+
+.tagline {
+  font-style: italic;
+  margin: 10px 0;
+}
+
+.menu {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+
+.pizza {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+}
+
+.pizza img {
+  width: 150px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.pizza h2 {
+  font-weight: bold;
+}
+
+.pizza p.ingredients {
+  font-style: italic;
+  color: #555;
+}
+
+.footer {
+  margin-top: 20px;
+}
+
+button {
+  background-color: #f4a261; /* yellow */
+  color: white;
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
 }
